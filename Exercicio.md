@@ -1,20 +1,39 @@
-Tela de compra de tickets.html:
-Documentos:
-    Responsável:
-        Nome (input text required min 5 max 50)
-        CPF (input text required min 14 max 14 pattern)
-        Telefone (input tel required)
-        e-mail (input email required)
-        data de nascimento (input date required)
-    Criança:
-        Nome (input text required min 5 max 50)
-        CPF (input text required min 14 max 14 pattern)
-        data de nascimento (input date required)
-Forma de Pagamento:
-    Cartão de crédito:
-        Numero cartão (input text pattern)
-        validade mes number min 1 max 12
-        validade ano number min 2026 max +10
-        CVC number min 1 max 999
-        Nome (input text required min 5 max 50)
-Apresentar o valor de R$ 103,97
+# Exercício: Tela de compra de tickets
+
+Arquivo: `Tela de compra de tickets.html`
+
+## Documentos
+
+### Responsável
+
+| Campo              | Tipo    | Validações                                        |
+| ------------------ | ------- | ------------------------------------------------- |
+| Nome               | `text`  | `required`, mínimo 5, máximo 50 caracteres        |
+| CPF                | `text`  | `required`, mínimo 14, máximo 14, com `pattern`   |
+| Telefone           | `tel`   | `required`                                        |
+| E-mail             | `email` | `required`                                        |
+| Data de nascimento | `date`  | `required`                                        |
+
+### Criança
+
+| Campo              | Tipo   | Validações                                      |
+| ------------------ | ------ | ----------------------------------------------- |
+| Nome               | `text` | `required`, mínimo 5, máximo 50 caracteres      |
+| CPF                | `text` | `required`, mínimo 14, máximo 14, com `pattern` |
+| Data de nascimento | `date` | `required`                                      |
+
+## Forma de pagamento
+
+### Cartão de crédito
+
+| Campo            | Tipo     | Validações                                  |
+| ---------------- | -------- | ------------------------------------------- |
+| Número do cartão | `text`   | com `pattern`                               |
+| Validade (mês)   | `number` | mínimo 1, máximo 12                         |
+| Validade (ano)   | `number` | mínimo 2026, máximo 2036 (ano atual + 10)   |
+| CVC              | `number` | mínimo 1, máximo 999                        |
+| Nome no cartão   | `text`   | `required`, mínimo 5, máximo 50 caracteres  |
+
+## Valor
+
+Apresentar o valor total de **R$ 103,97**.
