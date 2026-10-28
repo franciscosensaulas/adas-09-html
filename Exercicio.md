@@ -2,6 +2,20 @@
 
 Arquivo: `Tela de compra de tickets.html`
 
+## Contexto
+
+Um parque de diversões vai vender ingressos pela internet. Cada ingresso é comprado por um **responsável** para uma **criança**, e o parque exige os dados dos dois antes de liberar a entrada. O pagamento é feito com **cartão de crédito**.
+
+Sua tarefa é montar a tela de compra em HTML: um formulário que coleta os dados do responsável, da criança e do cartão e mostra o valor total do ingresso.
+
+## Objetivos
+
+- Usar o tipo de `input` adequado para cada informação (`text`, `tel`, `email`, `date`, `number`).
+- Aplicar validações nativas do HTML: `required`, `minlength`/`maxlength`, `min`/`max` e `pattern`.
+- Organizar o formulário em grupos com `fieldset` e `legend`, e ligar cada campo ao seu texto com `label`.
+
+> **Dica:** o CPF tem exatamente 14 caracteres porque está no formato `000.000.000-00`. Um `pattern` possível é `\d{3}\.\d{3}\.\d{3}-\d{2}`.
+
 ## Documentos
 
 ### Responsável
